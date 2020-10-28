@@ -11,7 +11,7 @@ def findBug(orginal,bugimage):
     y=indices[0]
     x=indices[1]
     print("X1 :",x[0]," Y1 :",y[0])
-    print("Xn :",x[-1],"Xn :",y[-1])
+    print("Xn :",x[-1]," Yn :",y[-1])
 
     #Plotting to compare 
     fig, axes = plt.subplots(nrows=1, ncols=3)

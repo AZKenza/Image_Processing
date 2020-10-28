@@ -23,7 +23,7 @@ def findBug(orginal,bugimage):
     y=indices[0]
     x=indices[1]
     print("X1 :",x[0]," Y1 :",y[0])
-    print("Xn :",x[-1],"Xn :",y[-1])
+    print("Xn :",x[-1]," Yn :",y[-1])
 
     #Plotting to compare 
     fig, axes = plt.subplots(nrows=1, ncols=3)
@@ -59,7 +59,7 @@ findBug(orginal,bugimage1)
 ```
 
     ## X1 : 1730  Y1 : 1295
-    ## Xn : 2169 Xn : 1654
+    ## Xn : 2169  Yn : 1654
 
 <img src="Finding_Bug_files/figure-gfm/unnamed-chunk-3-1.png" width="672" />
 
@@ -68,7 +68,7 @@ findBug(orginal,bugimage2)
 ```
 
     ## X1 : 3340  Y1 : 230
-    ## Xn : 3780 Xn : 587
+    ## Xn : 3780  Yn : 587
 
 <img src="Finding_Bug_files/figure-gfm/unnamed-chunk-4-1.png" width="672" />
 
@@ -77,6 +77,6 @@ findBug(orginal,bugimage3)
 ```
 
     ## X1 : 183  Y1 : 268
-    ## Xn : 623 Xn : 625
+    ## Xn : 623  Yn : 625
 
 <img src="Finding_Bug_files/figure-gfm/unnamed-chunk-5-1.png" width="672" />
